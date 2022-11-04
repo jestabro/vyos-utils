@@ -15,6 +15,7 @@ override_dh_auto_build:
 override_dh_auto_install:
 	mkdir -p $(DIR)/usr/libexec/vyos/validators
 	cp _build/numeric $(DIR)/usr/libexec/vyos/validators
+	cp _build/file-path $(DIR)/usr/libexec/vyos/validators
 	cp _build/validate-value $(DIR)/usr/libexec/vyos/
 
 override_dh_auto_test:

@@ -1,2 +1,3 @@
 usr/libexec/vyos/validators/numeric
+usr/libexec/vyos/validators/file-path
 usr/libexec/vyos/validate-value
